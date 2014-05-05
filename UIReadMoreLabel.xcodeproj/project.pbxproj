@@ -21,6 +21,8 @@
 		752D56E419179E3700223467 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 752D56C619179E3700223467 /* UIKit.framework */; };
 		752D56EC19179E3700223467 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 752D56EA19179E3700223467 /* InfoPlist.strings */; };
 		752D56EE19179E3700223467 /* UIReadMoreLabelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 752D56ED19179E3700223467 /* UIReadMoreLabelTests.m */; };
+		752D56F919179E4E00223467 /* UIReadMoreLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 752D56F719179E4E00223467 /* UIReadMoreLabel.m */; };
+		756C55891917AB51002C14B4 /* Screen Shot.png in Resources */ = {isa = PBXBuildFile; fileRef = 756C55881917AB51002C14B4 /* Screen Shot.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,9 @@
 		752D56E919179E3700223467 /* UIReadMoreLabelTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UIReadMoreLabelTests-Info.plist"; sourceTree = "<group>"; };
 		752D56EB19179E3700223467 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		752D56ED19179E3700223467 /* UIReadMoreLabelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIReadMoreLabelTests.m; sourceTree = "<group>"; };
+		752D56F719179E4E00223467 /* UIReadMoreLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIReadMoreLabel.m; sourceTree = "<group>"; };
+		752D56F819179E4E00223467 /* UIReadMoreLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIReadMoreLabel.h; sourceTree = "<group>"; };
+		756C55881917AB51002C14B4 /* Screen Shot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +122,9 @@
 				752D56D419179E3700223467 /* Main.storyboard */,
 				752D56D719179E3700223467 /* ViewController.h */,
 				752D56D819179E3700223467 /* ViewController.m */,
+				752D56F819179E4E00223467 /* UIReadMoreLabel.h */,
+				752D56F719179E4E00223467 /* UIReadMoreLabel.m */,
+				756C55881917AB51002C14B4 /* Screen Shot.png */,
 				752D56DA19179E3700223467 /* Images.xcassets */,
 				752D56C919179E3700223467 /* Supporting Files */,
 			);
@@ -228,6 +236,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				756C55891917AB51002C14B4 /* Screen Shot.png in Resources */,
 				752D56DB19179E3700223467 /* Images.xcassets in Resources */,
 				752D56CD19179E3700223467 /* InfoPlist.strings in Resources */,
 				752D56D619179E3700223467 /* Main.storyboard in Resources */,
@@ -250,6 +259,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				752D56D919179E3700223467 /* ViewController.m in Sources */,
+				752D56F919179E4E00223467 /* UIReadMoreLabel.m in Sources */,
 				752D56D319179E3700223467 /* AppDelegate.m in Sources */,
 				752D56CF19179E3700223467 /* main.m in Sources */,
 			);
@@ -456,6 +466,7 @@
 				752D56F319179E3700223467 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		752D56F419179E3700223467 /* Build configuration list for PBXNativeTarget "UIReadMoreLabelTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +475,7 @@
 				752D56F619179E3700223467 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
