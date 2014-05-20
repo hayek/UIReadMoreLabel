@@ -65,13 +65,26 @@
     
     float fitHeight;
     
-    while ((fitHeight = [self sizeThatFits:self.frame.size].height) >= height) {
-        isTruncated = YES;
-        NSString* shorterText = self.text;
+    if ([self sizeThatFits:self.frame.size].height >= height) {
+        NSString* fullText = self.text;
+        [super setText:@""];
+        int i = 0;
         
-        shorterText = [self.text substringToIndex:(self.text.length-_truncationString.length-kCharacterSkipLength)];
-        shorterText = [NSString stringWithFormat:@"%@%@", shorterText, _truncationString];
-        [super setText:shorterText];
+        NSString* lastGoodText;
+        
+        while ((fitHeight = [self sizeThatFits:self.frame.size].height) <= height) {
+            isTruncated = YES;
+            NSString* shorterText = self.text;
+            
+            shorterText = [fullText substringToIndex:i];
+            shorterText = [NSString stringWithFormat:@"%@%@", shorterText, _truncationString];
+            lastGoodText = self.text;
+            [super setText:shorterText];
+            
+            i += kCharacterSkipLength;
+        }
+        [super setText:lastGoodText];
+        
     }
     
     if ((fitHeight / (self.minimumScaleFactor*fontSize)) > 3.0) {// if more that ~3 lines align left
@@ -79,7 +92,7 @@
     }else{
         [self setTextAlignment:NSTextAlignmentCenter];
     }
-
+    
     [self setAdjustsFontSizeToFitWidth:wasAdjustsFontSizeToFitWidth];
     if (isTruncated == NO) {
         [self setFont:[UIFont fontWithName:self.font.fontName size:fontSize]];
