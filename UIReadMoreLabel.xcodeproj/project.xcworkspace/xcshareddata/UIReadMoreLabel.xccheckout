@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>44759B1C-C121-4CC6-AAA8-87C6E61F344A</string>
+	<key>IDESourceControlProjectName</key>
+	<string>UIReadMoreLabel</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>E86AABBA-6990-477B-8786-83CDC6529216</key>
+		<string>https://github.com/hayek/UIReadMoreLabel.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>UIReadMoreLabel.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>E86AABBA-6990-477B-8786-83CDC6529216</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/hayek/UIReadMoreLabel.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>E86AABBA-6990-477B-8786-83CDC6529216</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E86AABBA-6990-477B-8786-83CDC6529216</string>
+			<key>IDESourceControlWCCName</key>
+			<string>UIReadMoreLabel</string>
+		</dict>
+	</array>
+</dict>
+</plist>
