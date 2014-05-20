@@ -63,7 +63,7 @@
         [self setAdjustsFontSizeToFitWidth:NO];
     }
     
-    float fitHeight;
+    float fitHeight = [self sizeThatFits:self.frame.size].height;
     
     if ([self sizeThatFits:self.frame.size].height >= height) {
         NSString* fullText = self.text;
