@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
                        UIReadMoreLabel is an UILabel extention that supports truncation string for "read more" cases when the text is too large to fit the UILabel frame. UIReadMoreLabel supports dynamic font size and attributed string values.
                        DESC
 # Source Info
-  s.platform     =  :ios, '7.1'
+  s.platform     =  :ios, '7.0'
   s.source       =  {:git => 'https://github.com/hayek/UIReadMoreLabel.git',
                     :tag => s.version.to_s}
   s.source_files = 'UIReadMoreLabel/UIReadMoreLabel.{h,m}'
