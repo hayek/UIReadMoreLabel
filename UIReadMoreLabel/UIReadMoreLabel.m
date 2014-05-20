@@ -72,7 +72,7 @@
         
         NSString* lastGoodText;
         
-        while ((fitHeight = [self sizeThatFits:self.f4rame.size].height) <= height) {
+        while ((fitHeight = [self sizeThatFits:self.frame.size].height) <= height) {
             isTruncated = YES;
             NSString* shorterText = self.text;
             
