@@ -65,7 +65,7 @@
     
     float fitHeight = [self sizeThatFits:self.frame.size].height;
     
-    if ([self sizeThatFits:self.frame.size].height >= height) {
+    if ([self sizeThatFits:self.frame.size].height >= height && _truncationString.length > 0) {
         NSString* fullText = self.text;
         [super setText:@""];
         int i = 0;
