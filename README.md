@@ -3,6 +3,9 @@ UIReadMoreLabel is an UILabel extention that supports truncation string for "rea
 
 UIReadMoreLabel supports dynamic font size and attributed string values.
 
+[![Build Status](https://travis-ci.org/hayek/UIReadMoreLabel.svg)](https://travis-ci.org/facebook/pop)
+
+
 ![Shimmer](https://github.com/hayek/UIReadMoreLabel/blob/master/UIReadMoreLabel/Screen%20Shot.png?raw=true)
 
 ## Usage
@@ -21,7 +24,12 @@ UIReadMoreLabel *readMoreLabel = [[UIReadMoreLabel alloc] initWithFrame:self.vie
 There's also isTruncated property that will be set to YES in case the text was truncated.
 
 ## Installation
-Manually add the two files into your Xcode project:
+UIReadMoreLabel is available through [CocoaPods](http://cocoapods.org). To install
+it, simply add the following line to your Podfile:
+
+    pod "UIReadMoreLabel"
+    
+Or Manually add the two files into your Xcode project:
 
 - UIReadMoreLabel.h
 - UIReadMoreLabel.m
