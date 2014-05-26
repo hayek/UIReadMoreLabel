@@ -3,8 +3,8 @@ UIReadMoreLabel is an UILabel extention that supports truncation string for "rea
 
 UIReadMoreLabel supports dynamic font size and attributed string values.
 
-![License](http://img.shields.io/packagist/l/doctrine/orm.svg)
- ![cocoapods](http://img.shields.io/cocoapods/v/UIReadMoreLabel.svg)
+[![License](http://img.shields.io/packagist/l/doctrine/orm.svg)](http://cocoadocs.org/docsets/UIReadMoreLabel)
+[![cocoapods](http://img.shields.io/cocoapods/v/UIReadMoreLabel.svg)](http://cocoadocs.org/docsets/UIReadMoreLabel)
 
 ![UIReadMoreLabel](https://github.com/hayek/UIReadMoreLabel/blob/master/UIReadMoreLabel/Screen%20Shot.png?raw=true)
 
