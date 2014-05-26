@@ -22,6 +22,7 @@
 		752D56EC19179E3700223467 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 752D56EA19179E3700223467 /* InfoPlist.strings */; };
 		752D56EE19179E3700223467 /* UIReadMoreLabelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 752D56ED19179E3700223467 /* UIReadMoreLabelTests.m */; };
 		752D56F919179E4E00223467 /* UIReadMoreLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 752D56F719179E4E00223467 /* UIReadMoreLabel.m */; };
+		753AD592193364EF00EE8BEB /* .travis.yml in Resources */ = {isa = PBXBuildFile; fileRef = 753AD591193364EF00EE8BEB /* .travis.yml */; };
 		756C55891917AB51002C14B4 /* Screen Shot.png in Resources */ = {isa = PBXBuildFile; fileRef = 756C55881917AB51002C14B4 /* Screen Shot.png */; };
 /* End PBXBuildFile section */
 
@@ -57,6 +58,7 @@
 		752D56ED19179E3700223467 /* UIReadMoreLabelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIReadMoreLabelTests.m; sourceTree = "<group>"; };
 		752D56F719179E4E00223467 /* UIReadMoreLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIReadMoreLabel.m; sourceTree = "<group>"; };
 		752D56F819179E4E00223467 /* UIReadMoreLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIReadMoreLabel.h; sourceTree = "<group>"; };
+		753AD591193364EF00EE8BEB /* .travis.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .travis.yml; sourceTree = "<group>"; };
 		756C55881917AB51002C14B4 /* Screen Shot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -124,6 +126,7 @@
 				752D56D819179E3700223467 /* ViewController.m */,
 				752D56F819179E4E00223467 /* UIReadMoreLabel.h */,
 				752D56F719179E4E00223467 /* UIReadMoreLabel.m */,
+				753AD591193364EF00EE8BEB /* .travis.yml */,
 				756C55881917AB51002C14B4 /* Screen Shot.png */,
 				752D56DA19179E3700223467 /* Images.xcassets */,
 				752D56C919179E3700223467 /* Supporting Files */,
@@ -236,6 +239,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				753AD592193364EF00EE8BEB /* .travis.yml in Resources */,
 				756C55891917AB51002C14B4 /* Screen Shot.png in Resources */,
 				752D56DB19179E3700223467 /* Images.xcassets in Resources */,
 				752D56CD19179E3700223467 /* InfoPlist.strings in Resources */,
