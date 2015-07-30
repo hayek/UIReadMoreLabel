@@ -10,29 +10,29 @@
 	<string>UIReadMoreLabel</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>E86AABBA-6990-477B-8786-83CDC6529216</key>
+		<key>525DD159DBB788D71F159E5540359261EFB7F619</key>
 		<string>https://github.com/hayek/UIReadMoreLabel.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>UIReadMoreLabel.xcodeproj/project.xcworkspace</string>
+	<string>UIReadMoreLabel.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>E86AABBA-6990-477B-8786-83CDC6529216</key>
+		<key>525DD159DBB788D71F159E5540359261EFB7F619</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/hayek/UIReadMoreLabel.git</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>E86AABBA-6990-477B-8786-83CDC6529216</string>
+	<string>525DD159DBB788D71F159E5540359261EFB7F619</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>E86AABBA-6990-477B-8786-83CDC6529216</string>
+			<string>525DD159DBB788D71F159E5540359261EFB7F619</string>
 			<key>IDESourceControlWCCName</key>
 			<string>UIReadMoreLabel</string>
 		</dict>
