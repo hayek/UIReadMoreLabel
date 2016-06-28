@@ -27,7 +27,7 @@ There's also isTruncated property that will be set to YES in case the text was t
 UIReadMoreLabel is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
-    pod 'UIReadMoreLabel', '~> 1.2'
+    pod 'UIReadMoreLabel', '~> 1.3'
     
 Or Manually add the two files into your Xcode project:
 
