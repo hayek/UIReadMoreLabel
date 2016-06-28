@@ -37,15 +37,27 @@
 -(void)setText:(NSString *)text
 {
     [super setText:text];
+    
+    if (text == nil) {
+        return;
+    }
+    
     _isTruncated = [self checkTruncation];
-    if (_isTruncated) {
-        NSMutableAttributedString* attributedString = [[NSMutableAttributedString alloc] initWithString:self.text];
-        [attributedString setAttributes:@{NSFontAttributeName:self.font}
-                                  range:NSMakeRange(0, self.attributedText.length-_truncationString.length)];
-        [attributedString setAttributes:@{NSFontAttributeName:[UIFont fontWithName:@"HelveticaNeue-CondensedBold" size:self.font.pointSize],
-                                          NSForegroundColorAttributeName:[UIColor colorWithRed:0 green:0 blue:0 alpha:0.3]}
-                                  range:NSMakeRange(self.attributedText.length-_truncationString.length, _truncationString.length)];
-        [self setAttributedText:attributedString];
+    @try
+    {
+        if (_isTruncated) {
+            NSMutableAttributedString* attributedString = [[NSMutableAttributedString alloc] initWithString:self.text];
+            [attributedString setAttributes:@{NSFontAttributeName:self.font}
+                                      range:NSMakeRange(0, self.attributedText.length-_truncationString.length)];
+            [attributedString setAttributes:@{NSFontAttributeName:[UIFont fontWithName:@"HelveticaNeue-CondensedBold" size:self.font.pointSize],
+                                              NSForegroundColorAttributeName:[UIColor colorWithRed:0 green:0 blue:0 alpha:0.3]}
+                                      range:NSMakeRange(self.attributedText.length-_truncationString.length, _truncationString.length)];
+            [self setAttributedText:attributedString];
+        }
+    }
+    @catch (NSException *exception) //NSRangeException
+    {
+        return;
     }
 }
 
